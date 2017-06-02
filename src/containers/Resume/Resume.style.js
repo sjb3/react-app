@@ -6,4 +6,7 @@ export const ResumeDiv = styled.div`
   background-size: cover;
   background-position: center;
 
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 30px;
 `
