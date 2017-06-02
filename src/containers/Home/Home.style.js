@@ -20,7 +20,9 @@ export const MainImage = styled.div`
 `;
 
 export const RevealP = styled.p`
-  font-family: 'Great Vibes', cursive;;
+  font-family: 'Yellowtail', monospace;
+  font-size: 1.2em;
+  color: #564f34;
   position: relative;
   &:after {
     content: ' ';
