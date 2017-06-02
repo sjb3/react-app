@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class App extends Component {
+class Contacts extends Component {
   render() {
     return (
       <div>
-        {this.props.children}
+        RING RING
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default Contacts;
