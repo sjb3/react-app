@@ -1,9 +1,10 @@
 
-
 import React, { Component, PropTypes } from 'react';
 import { Container } from '../../theme/grid';
 import { MainImage, RevealP } from './Home.style';
 import { WhenInView } from '../../Components/WhenInView/WhenInView';
+
+import 'normalize.css';
 
 export default class Home extends Component {
   static propTypes = {};
@@ -13,7 +14,7 @@ export default class Home extends Component {
       <Container>
         <MainImage>
           <h1>Justin Byun</h1>
-          <h2 style={{color: '#f7eabb'}}>Full Stack Software Engineer</h2>
+          <h2 style={{color: '#33f71d'}}>Full Stack Software Engineer</h2>
         </MainImage>
 
        <WhenInView>
