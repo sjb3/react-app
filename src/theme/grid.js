@@ -23,3 +23,20 @@ export const Container = styled(Div)`
     padding-top: 15px;
   `}
 `;
+
+export const Relative = styled(Div)`
+  position: relative;
+`;
+
+export const Flex = styled(Div)`
+  display: flex;
+  ${({ column }) => column && css`
+    flex-direction: column;
+  `}
+  ${({ justify }) => justify && css`
+    justify-content: ${justify};
+  `}
+  ${({ align }) => align && css`
+    align-content: ${align};
+  `}
+`;

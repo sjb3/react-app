@@ -20,7 +20,7 @@ class Resume extends Component {
         <br />
         <br />
         <br />
-        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center',}}>Experiences</h2>
+        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center', color: '#7a7aff'}}>Experiences</h2>
           <hr />
           <a href="http://heyduwamish.org"><h3 style={{color: 'yellow'}}>Open Source Contributor at heyduwamish.org ( Seattle WA, 12/16 - current )</h3></a>
           <h4>: We are a community of residents and stakeholders monitoring pollution and improving environmental health for the Duwamish Valley.</h4>
@@ -52,21 +52,21 @@ class Resume extends Component {
           </ul>
           </h4>
           <br />
-        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center',}}>Education</h2>
+        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center', color: '#7a7aff'}}>Education</h2>
         <hr />
           <h3 style={{color: 'yellow'}}>Code Fellows ( 2016, Seattle WA ) </h3><br/>
             <h4>Certificate in Advanced Full-Stack JavaScript Dev: Sept, 2016</h4><br/>
           <h3 style={{color: 'yellow'}}>University of Washington ( 2005, Seattle WA ) </h3><br/>
             <h4>Bachelor’s of Sciences: Majors in Biochemistry and Microbiology, Minor in Chemistry</h4><br/>
         <br />
-        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center',}}>Skill Sets</h2>
+        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center', color: '#7a7aff'}}>Skill Sets</h2>
         <hr />
           <h3 style={{color: 'yellow'}}>advanced skills;</h3>
           <h4>javaScript, jQuery, nodeJS, expressJS, buebirdJS, Angular 1, ReactJS, python, webPack, RESTful API, Mocha, GulpJS, HTML5, CSS3/SASS, SQL(SQLite, postgreSQL), noSQL(mongoDB, RethinkDB)</h4>
           <h3 style={{color: 'yellow'}}>intermediate;</h3>
           <h4>R, AWS(web dev-assoc), Docker(ver 1.12), java, goLang</h4>
         <br />
-        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center',}}>Completed Group Projects</h2>
+        <h2 style={{fontSize:40, fontFamily: 'Lobster', textAlign: 'center', color: '#7a7aff'}}>Completed Group Projects</h2>
           <hr />
           <a style={{color: '#f41685'}} href="http://github.com/sjb3/brew-buddy-coffee-companion"><h3>_brewBuddy_coffeeCompanion ( Sept 2016 )</h3></a>
             <h4>

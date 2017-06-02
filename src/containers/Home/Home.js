@@ -14,7 +14,7 @@ export default class Home extends Component {
       <Container>
         <MainImage>
           <h1>Justin Byun</h1>
-          <h2 style={{color: '#33f71d'}}>Full Stack Software Engineer</h2>
+          <h2 style={{color: '#0afce4'}}>Full Stack Software Engineer</h2>
         </MainImage>
 
        <WhenInView>
