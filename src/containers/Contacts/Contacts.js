@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
-import { Container } from '../../theme/grid';
+
+import { TitleDiv } from './Contacts.style';
+// import { Container } from '../../theme/grid';
 
 import FaGithubAlt from 'react-icons/lib/fa/github-alt';
-import FaPhoneSquare from 'react-icons/lib/fa/phone-square';
-import FaPaperPlane from 'react-icons/lib/fa/paper-plane';
+import MdPhoneInTalk from 'react-icons/lib/md/phone-in-talk';
+import MdEmail from 'react-icons/lib/md/email';
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
 
 class Contacts extends Component {
   render() {
     return (
-      <Container>
-        <h2 style={{textAlignLast: 'center', fontFamily: 'Ranga', color: 'white', fontSize: 50, textAlign: 'left'}}>contact information:</h2>
 
-        <FaPhoneSquare style={{float: 'left', color:'#f41685', fontSize: 30}}/>
-        <h3 style={{float: 'center', textAlignLast: 'left', fontFamily: 'Ranga', fontSize: 30, color: '#f41685'}}>206) 327-7850</h3>
-        <br />
-        <FaPaperPlane style={{float: 'left', color:'#f41685', fontSize: 30}}/>
-        <h3 style={{float: 'center', textAlignLast: 'left', fontFamily: 'Ranga', fontSize: 30, color: '#f41685'}}>klofseattle@hotmail.com</h3>
-        <br />
-        <a href="http://github.com/sjb3"><FaGithubAlt  style={{textAlignLast: 'center', color:'#f41685', fontSize: 30}}/></a>
+      <TitleDiv>
+        <h2 style={{color: 'white', fontFamily: 'VT323', fontSize: 50}}>contact information</h2>
+        <MdPhoneInTalk style={{fontSize: 40}}/>
+        <h3>206) 327-7850</h3>
+
+        <MdEmail style={{fontSize: 40}}/>
+        <h3>klofseattle@hotmail.com</h3>
+
+        <a href="http://github.com/sjb3"><FaGithubAlt style={{color: '#0afce4', fontSize: 40}}/></a>
+        <h3>github.com/sjb3</h3>
+
+        <a href="http://linkedin.com/in/justin-byun"><FaLinkedinSquare style={{color: '#0afce4', fontSize: 40}}/></a>
+        <h3>linkedin.com/in/justin-byun</h3>
         <br/>
-        <a href="http://linkedin.com/in/justin-byun"><FaLinkedinSquare  style={{textAlignLast: 'center', color:'#f41685', fontSize: 30}}/></a>
-
-      </Container>
+        <br/>
+      </TitleDiv>
     )
   }
 }

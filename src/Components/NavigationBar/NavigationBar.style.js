@@ -6,7 +6,6 @@ export const NavigationContainer = styled(Flex)`
   position: fixed;
   right: 4em;
   top: 1em;
-  // background-color: red;
   font-family: 'Satisfy';
 
 `;
@@ -17,6 +16,7 @@ export const NavItem = styled(Link)`
   color: black;
   position: relative;
   text-decoration: none;
+
   &:hover {
     color: #fc0a8b;
     text-decoration: underline;
