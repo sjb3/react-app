@@ -41,7 +41,6 @@ export default (
       <IndexRoute component={Home}/>
       <Route path="/resume" component={Resume}/>
       <Route path="/contacts" component={Contacts}/>
-
     </Route>
   </Router>
 );
