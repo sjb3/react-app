@@ -8,6 +8,8 @@ class NavigationBar extends Component {
         <NavItem to="/">Home</NavItem>
         <NavItem to="/resume">Resume</NavItem>
         <NavItem to="/contacts">Contacts</NavItem>
+        <NavItem to="/youtube">Youtube</NavItem>
+
       </NavigationContainer>
     )
   }

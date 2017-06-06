@@ -19,6 +19,7 @@ import Home from './containers/Home/Home';
 import App from './containers/App/App';
 import Resume from './containers/Resume/Resume';
 import Contacts from './containers/Contacts/Contacts';
+import Youtube from './containers/Youtube/Youtube';
 
 Router.prototype.componentWillReceiveProps = function(nextProps) {
   let components = [];
@@ -41,6 +42,7 @@ export default (
       <IndexRoute component={Home}/>
       <Route path="/resume" component={Resume}/>
       <Route path="/contacts" component={Contacts}/>
+      <Route path="/youtube" component={Youtube} />
     </Route>
   </Router>
 );
